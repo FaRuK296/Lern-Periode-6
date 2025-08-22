@@ -22,22 +22,22 @@
 
 
 
-- [ ] Arbeitspaket 3 (Falls Sie den maker space besuchen, dann dürfen Sie diesen Punkt löschen. Ansonsten können Sie hier mit dem Coden beginnen, nachdem Sie sich ganz klar überlegt haben, was Ihr erster Schritt ist und den hier als AP festgehalten haben.)
+- [x] Arbeitspaket 3 (Falls Sie den maker space besuchen, dann dürfen Sie diesen Punkt löschen. Ansonsten können Sie hier mit dem Coden beginnen, nachdem Sie sich ganz klar überlegt haben, was Ihr erster Schritt ist und den hier als AP festgehalten haben.)
 
-✍️ Heute habe ich... (50-100 Wörter)
+Heute habe Ich einen Plan mit Stift und Papier erstellt. in diesem Plan habe ich mir notiert, welche Klassen und Objekte mein Programm haben soll und was dere Beziehungen sind. Danach habe ich angefangen die Klassen in Visual Studio zu erstellen.
 
-☝️ Vergessen Sie nicht, einen ersten Code und Skizze auf github hochzuladen!
 
 ## 29.8
 
-- [ ] Arbeitspaket 1
-- [ ] Arbeitspaket 2
-- [ ] Arbeitspaket 3 
+- [ ] Alle Klassen erstellen
+- [ ] Objekte erstellen
+- [ ] Notitzen machen was ganz genau im Spiel passieren soll (offline) 
 
 📵 Eines dieser Arbeitspakete ist offline.
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
 ☝️ Vergessen Sie nicht, Ihren Code auf github hochzuladen
+
 
 
