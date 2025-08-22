@@ -18,7 +18,8 @@
 - [x] Erstellen Sie ein Projekt im VS und beginnen Sie mir ersten Code-Skizzen. Das ist wichtig, Sie müssen heute bereits schon C#-Code hochladen!
 - [x] Schreiben Sie eine Liste, welche Klassen und Objekte es braucht, und wie diese miteinander interagieren. Das Format ist Ihnen freigestellt, aber Sie müssen es auch bereits heute auf github laden.
 
-![WhatsApp Bild 2025-08-22 um 11 37 09_ed6eee69](https://github.com/user-attachments/assets/0ca70092-abb1-4731-8841-b823fe4736d8)
+![WhatsApp Bild 2025-08-22 um 11 39 14_4501d9a8](https://github.com/user-attachments/assets/95df0192-dee7-46d5-a6a8-fbed3edd25d8)
+
 
 
 - [ ] Arbeitspaket 3 (Falls Sie den maker space besuchen, dann dürfen Sie diesen Punkt löschen. Ansonsten können Sie hier mit dem Coden beginnen, nachdem Sie sich ganz klar überlegt haben, was Ihr erster Schritt ist und den hier als AP festgehalten haben.)
@@ -38,4 +39,5 @@
 ✍️ Heute habe ich... (50-100 Wörter)
 
 ☝️ Vergessen Sie nicht, Ihren Code auf github hochzuladen
+
 
