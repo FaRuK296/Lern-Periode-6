@@ -24,20 +24,28 @@
 
 - [x] Arbeitspaket 3 (Falls Sie den maker space besuchen, dann dürfen Sie diesen Punkt löschen. Ansonsten können Sie hier mit dem Coden beginnen, nachdem Sie sich ganz klar überlegt haben, was Ihr erster Schritt ist und den hier als AP festgehalten haben.)
 
-Heute habe Ich einen Plan mit Stift und Papier erstellt. in diesem Plan habe ich mir notiert, welche Klassen und Objekte mein Programm haben soll und was dere Beziehungen sind. Danach habe ich angefangen die Klassen in Visual Studio zu erstellen.
+Heute habe Ich einen Plan mit Stift und Papier erstellt. In diesem Plan habe ich mir notiert, welche Klassen und Objekte mein Programm haben soll und was deren Beziehungen sind. Danach habe ich angefangen die Klassen in Visual Studio zu erstellen.
 
 
 ## 29.8
 
 - [x] Alle Klassen erstellen
-- [ ] Objekte erstellen
-- [ ] Notitzen machen was ganz genau im Spiel passieren soll (offline) 
+- [x] Objekte erstellen
+- [x] Notitzen machen was ganz genau im Spiel passieren soll (offline)
 
-📵 Eines dieser Arbeitspakete ist offline.
+![WhatsApp Bild 2025-08-29 um 10 18 05_a683e70f](https://github.com/user-attachments/assets/82cd3e3f-9ae8-4f3f-9580-81a7590c1bf3)
 
-✍️ Heute habe ich... (50-100 Wörter)
 
-☝️ Vergessen Sie nicht, Ihren Code auf github hochzuladen
+Heute habe ich begonnen, die Klassen fuer mein Ninjago-Spiel in C# zu erstellen. Ich habe die Ninja-Klasse programmiert und dabei die wichtigsten Eigenschaften (Name, HP, Waffe, Kraft) hinzugefuegt. Ausserdem habe ich mir überlegt, wie die Attacke-Methode aussehen soll, damit ein Ninja gegen einen Gegner kämpfen kann. Die anderen Klassen (Waffe, Kraft, Boesewicht, Arena) habe ich zwar schon als Dateien angelegt, aber noch nicht mit Inhalt gefüllt. Somit konnte ich heute die erste funktionsfähige Klasse (Ninja.cs) fertigstellen.
+
+## 29.8
+
+- [ ] Waffe.cs und Kraft.cs mit Inhalt füllen
+- [ ] Boesewicht.cs erstellen, Bösewichte klarer definieren
+- [ ] Test Kampf programmieren, Ninja gegen Bösewicht kämpfen lassen
+- [ ] OFFLINE: Klassendiagramm auf Papier skizzieren (mit Beziehungen zwischen Ninja, Waffe, Kraft, Boesewicht, Arena)
+
+
 
 
 
