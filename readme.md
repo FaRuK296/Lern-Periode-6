@@ -29,7 +29,7 @@ Heute habe Ich einen Plan mit Stift und Papier erstellt. in diesem Plan habe ich
 
 ## 29.8
 
-- [ ] Alle Klassen erstellen
+- [x] Alle Klassen erstellen
 - [ ] Objekte erstellen
 - [ ] Notitzen machen was ganz genau im Spiel passieren soll (offline) 
 
@@ -38,6 +38,7 @@ Heute habe Ich einen Plan mit Stift und Papier erstellt. in diesem Plan habe ich
 ✍️ Heute habe ich... (50-100 Wörter)
 
 ☝️ Vergessen Sie nicht, Ihren Code auf github hochzuladen
+
 
 
 
