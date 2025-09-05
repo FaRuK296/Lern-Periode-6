@@ -47,7 +47,7 @@ Heute habe ich begonnen, die Klassen fuer mein Ninjago-Spiel in C# zu erstellen.
 
 Heute habe ich meine Klassen fertig gemacht. Ich habe Waffe.cs und Kraft.cs mit Inhalt gefüllt und Boesewicht.cs erstellt. Auf Papier habe ich eine Skizze ertsellt auf der man die Beziehungen der 4 Klassen ablesen kann. Ich habe als Beispiel einen Ninja genommen (Kai). Als Bösewicht Gamadon. Ich habe die Klasse Arena gelöscht, weil sie für mein Projekt nicht unbedingt gepasst hat. Den Testkampf habe ich nicht programmiert, weil ich gemerkt habe dass es im Moment noch nicht so viel Sinn macht. Danach war ich Fertig und habe ich angefangen im Programm.cs, mehrere Ninjas, Waffen, Kräfte und Bösewichte zu erstellen, damit ich später richtige Kämpfe machen kann. Ich konnte bis jetzt die Waffen und eine Kraft erstellen.
 
-![WhatsApp Bild 2025-09-05 um 12 14 21_6f104508](https://github.com/user-attachments/assets/37b2e8cd-7e56-45cd-9eba-feddc7a978ba)
+![WhatsApp Bild 2025-09-05 um 12 20 56_d17c96ae](https://github.com/user-attachments/assets/0fe04027-4861-4918-8250-76a662f07454)
 
 
 ## 12.9
@@ -56,6 +56,7 @@ Heute habe ich meine Klassen fertig gemacht. Ich habe Waffe.cs und Kraft.cs mit 
 - [ ] ToString Methoden verbessern: Alle Klassen so erweitern, dass sie sich schön in der Konsole ausgeben (z. B. Name, HP, Schaden).
 - [ ] Erste While-Schleife: Kampf so lange laufen lassen, bis einer 0 HP hat
 - [ ] Kämpfe testen: Verschiedene Ninjas und Bösewichte gegeneinander kämpfen lassen
+
 
 
 
