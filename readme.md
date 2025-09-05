@@ -40,10 +40,11 @@ Heute habe ich begonnen, die Klassen fuer mein Ninjago-Spiel in C# zu erstellen.
 
 ## 29.8
 
-- [ ] Waffe.cs und Kraft.cs mit Inhalt füllen
-- [ ] Boesewicht.cs erstellen, Bösewichte klarer definieren
+- [x] Waffe.cs und Kraft.cs mit Inhalt füllen
+- [x] Boesewicht.cs erstellen, Bösewichte klarer definieren
 - [ ] Test Kampf programmieren, Ninja gegen Bösewicht kämpfen lassen
 - [ ] OFFLINE: Klassendiagramm auf Papier skizzieren (mit Beziehungen zwischen Ninja, Waffe, Kraft, Boesewicht, Arena)
+
 
 
 
