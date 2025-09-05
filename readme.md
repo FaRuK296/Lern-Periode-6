@@ -38,12 +38,25 @@ Heute habe Ich einen Plan mit Stift und Papier erstellt. In diesem Plan habe ich
 
 Heute habe ich begonnen, die Klassen fuer mein Ninjago-Spiel in C# zu erstellen. Ich habe die Ninja-Klasse programmiert und dabei die wichtigsten Eigenschaften (Name, HP, Waffe, Kraft) hinzugefuegt. Ausserdem habe ich mir überlegt, wie die Attacke-Methode aussehen soll, damit ein Ninja gegen einen Gegner kämpfen kann. Die anderen Klassen (Waffe, Kraft, Boesewicht, Arena) habe ich zwar schon als Dateien angelegt, aber noch nicht mit Inhalt gefüllt. Somit konnte ich heute die erste funktionsfähige Klasse (Ninja.cs) fertigstellen.
 
-## 29.8
+## 5.9
 
 - [x] Waffe.cs und Kraft.cs mit Inhalt füllen
 - [x] Boesewicht.cs erstellen, Bösewichte klarer definieren
 - [x] Test Kampf programmieren, Ninja gegen Bösewicht kämpfen lassen
 - [x] OFFLINE: Klassendiagramm auf Papier skizzieren (mit Beziehungen zwischen Ninja, Waffe, Kraft, Boesewicht, Arena)
+
+Heute habe ich meine Klassen fertig gemacht. Ich habe Waffe.cs und Kraft.cs mit Inhalt gefüllt und Boesewicht.cs erstellt. Auf Papier habe ich eine Skizze ertsellt auf der man die Beziehungen der 4 Klassen ablesen kann. Ich habe als Beispiel einen Ninja genommen (Kai). Als Bösewicht Gamadon. Ich habe die Klasse Arena gelöscht, weil sie für mein Projekt nicht unbedingt gepasst hat. Den Testkampf habe ich nicht programmiert, weil ich gemerkt habe dass es im Moment noch nicht so viel Sinn macht. Danach war ich Fertig und habe ich angefangen im Programm.cs, mehrere Ninjas, Waffen, Kräfte und Bösewichte zu erstellen, damit ich später richtige Kämpfe machen kann. Ich konnte bis jetzt die Waffen und eine Kraft erstellen.
+
+![WhatsApp Bild 2025-09-05 um 12 14 21_6f104508](https://github.com/user-attachments/assets/37b2e8cd-7e56-45cd-9eba-feddc7a978ba)
+
+
+## 12.9
+
+- [ ] Die reslichen Objekte: Ninjas, Krafte, Bösewichte in Programm.cs erstellen
+- [ ] ToString Methoden verbessern: Alle Klassen so erweitern, dass sie sich schön in der Konsole ausgeben (z. B. Name, HP, Schaden).
+- [ ] Erste While-Schleife: Kampf so lange laufen lassen, bis einer 0 HP hat
+- [ ] Kämpfe testen: Verschiedene Ninjas und Bösewichte gegeneinander kämpfen lassen
+
 
 
 
