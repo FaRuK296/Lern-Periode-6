@@ -4,14 +4,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Nijago_LA_6
+namespace Ninjago_LA_6
 {
-    internal class Kraft
+    public class Kraft
     {
-        public Kraft() { 
-        
-        Kraft kraft = new Kraft();
-        
+        public string Element { get; set; }
+        public int Bonus { get; set; }
+
+        public Kraft (string name, int bonus)
+        {
+            Element = name;
+            Bonus = bonus;
         }
+
+        public override string ToString()
+        {
+            return $"{Element} Bonusschaden: {Bonus}";
+        }
+
     }
-}
+    }
+

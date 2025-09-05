@@ -1,17 +1,34 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Nijago_LA_6
+namespace Ninjago_LA_6
 {
-    internal class Waffe
+    public class Waffe
     {
-        public Waffe() {
-        
-        Waffe waffe = new Waffe();
+
+
+        public string Name { get; set; }
+        public int Damage { get; set; }
+
+        public Waffe(string name, int damage)
+        {
+
+            Name = name;
+            Damage = damage;
+        }
+
+        public override string ToString()
+        {
+
+            return $"{Name} (Schaden: {Damage})";
+
 
         }
     }
 }
+
+

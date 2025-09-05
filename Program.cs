@@ -1,33 +1,33 @@
-﻿using Nijago_LA_6;
+﻿using Ninjago_LA_6;
+
 
 namespace Ninjago_LA_6
 {
-    public class Ninja
+    internal class Program
     {
-        public string Name { get; set; }
-        public int Hp { get; set; }
-        public Waffe Waffe { get; set; }
-        public Kraft Kraft { get; set; }
-
-        public Ninja(string name, int hp, Waffe waffe, Kraft kraft)
+        static void Main(string[] args)
         {
-            Name = name;
-            Hp = hp;
-            Waffe = waffe;
-            Kraft = kraft;
-        }
+            // Waffen erstellen
+            Waffe Schwert = new Waffe("Schwert", 30);
+            Waffe Nunchaku = new Waffe("Nunchaku", 15);
+            Waffe Shuriken = new Waffe("Shuriken", 20);
+            Waffe Sense = new Waffe("Sense", 25);
 
-        public void Attack(Boesewicht enemy)
-        {
-            int damage = Waffe.Damage + Kraft.Bonus;
-            enemy.Hp -= damage;
-            Console.WriteLine($"{Name} greift {enemy.Name} an und macht {damage} Schaden!");
-        }
+            // Kräfte erstellen
+            Kraft Feuer = new Kraft("Feuer", 7);
 
-        public override string ToString()
-        {
-            return $"{Name} (HP: {Hp}, Waffe: {Waffe.Name}, Kraft: {Kraft.Element})";
+
+
+
+
+
+            // Ninjas erstelle
+            Ninja Kai = new Ninja("Kai", 100, Schwert, Feuer);
+
+
+
         }
     }
 }
+
 
