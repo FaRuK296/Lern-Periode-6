@@ -57,13 +57,16 @@ Heute habe ich meine Klassen fertig gemacht. Ich habe Waffe.cs und Kraft.cs mit 
 - [x] Kurzen Testlauf machen: Einmal alle Ninjas und Bösewichte ausgeben, um zu prüfen ob alles richtig erstellt wurde
 - [x] Projekt aufräumen: Kommentare hinzufügen und unnötigen Code löschen, damit alles übersichtlich ist
 
+Heute habe ich zuerst alle Objekte fertig erstellt. Danach habe ich die ToString Methoden überprüft damit eine saubere Ausgabe erscheint.  Ausserdem habe ich den Code besser kommentiert, für eine bessere Übersicht und Verständnis. Danach habe ich im Program.cs einen kurzen Testlauf eingebaut, bei dem alle Ninjas und Bösewichte in der Konsole ausgegeben werden. So konnte ich überprüfen, ob sie richtig erstellt wurden und ob die ToString Methoden richtig waren. Ich habe noch ein Screenshot von der Ausgabe gemacht um es hier hochzuladen.
+
+<img width="1745" height="382" alt="Screenshot 2025-09-12 120223" src="https://github.com/user-attachments/assets/b66a99dc-d6b2-42d1-9bcd-245e901d6bff" />
 
 
+## 19.9
 
-
-
-
-
-
+- [ ] While Schleife einbauen, damit der Kampf so lange läuft, bis einer 0 HP hat
+- [ ] Ein Auswahl Menü erstellen: Benutzer kann Ninja und Bösewicht selbst auswählen
+- [ ] Ausgabe schöner machen: Nach jedem Angriff eine kurze Pause (z. B. Console.ReadKey()), damit man den Kampf Schritt für Schritt verfolgen kann
+- [ ] Siegernachrichten eingbauen: Zum Beispiel Kai hat seinen Gegner gedemütigt! usw.
 
 
