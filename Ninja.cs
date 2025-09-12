@@ -9,6 +9,8 @@ namespace Ninjago_LA_6
 {
     public class Ninja
     {
+
+        // Eigenschaften Ninja
         public string Name { get; set; }
         public int Hp { get; set; }
         public Waffe Waffe { get; set; }
@@ -22,6 +24,8 @@ namespace Ninjago_LA_6
             Kraft = kraft;
         }
 
+
+
         public void Attack(Boesewicht enemy)
         {
             int damage = Waffe.Damage + Kraft.Bonus;
@@ -29,6 +33,8 @@ namespace Ninjago_LA_6
             Console.WriteLine($"{Name} greift {enemy.Name} an und macht {damage} Schaden!");
         }
 
+
+        // Ausgabe des Ninjas
         public override string ToString()
         {
             return $"{Name} (HP: {Hp}, Waffe: {Waffe.Name}, Kraft: {Kraft.Element})";

@@ -8,8 +8,12 @@ namespace Ninjago_LA_6
 {
     public class Kraft
     {
+
+        // Eigenschaften Kraft
         public string Element { get; set; }
         public int Bonus { get; set; }
+
+
 
         public Kraft (string name, int bonus)
         {
@@ -17,6 +21,7 @@ namespace Ninjago_LA_6
             Bonus = bonus;
         }
 
+        // Ausgabe der Kraft
         public override string ToString()
         {
             return $"{Element} Bonusschaden: {Bonus}";
