@@ -52,10 +52,11 @@ Heute habe ich meine Klassen fertig gemacht. Ich habe Waffe.cs und Kraft.cs mit 
 
 ## 12.9
 
-- [ ] Die reslichen Objekte: Ninjas, Krafte, Bösewichte in Programm.cs erstellen
-- [ ] ToString Methoden verbessern: Alle Klassen so erweitern, dass sie sich schön in der Konsole ausgeben (z. B. Name, HP, Schaden).
-- [ ] Erste While-Schleife: Kampf so lange laufen lassen, bis einer 0 HP hat
-- [ ] Kämpfe testen: Verschiedene Ninjas und Bösewichte gegeneinander kämpfen lassen
+- [x] Die reslichen Objekte: Ninjas, Krafte, Bösewichte in Programm.cs erstellen
+- [x] ToString Methoden verbessern: Alle Klassen so erweitern, dass sie sich schön in der Konsole ausgeben (z. B. Name, HP, Schaden).
+- [x] Kurzen Testlauf machen: Einmal alle Ninjas und Bösewichte ausgeben, um zu prüfen ob alles richtig erstellt wurde
+- [x] Projekt aufräumen: Kommentare hinzufügen und unnötigen Code löschen, damit alles übersichtlich ist
+
 
 
 
