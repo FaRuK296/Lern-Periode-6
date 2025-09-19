@@ -64,9 +64,20 @@ Heute habe ich zuerst alle Objekte fertig erstellt. Danach habe ich die ToString
 
 ## 19.9
 
-- [ ] While Schleife einbauen, damit der Kampf so lange läuft, bis einer 0 HP hat
-- [ ] Ein Auswahl Menü erstellen: Benutzer kann Ninja und Bösewicht selbst auswählen
-- [ ] Ausgabe schöner machen: Nach jedem Angriff eine kurze Pause (z. B. Console.ReadKey()), damit man den Kampf Schritt für Schritt verfolgen kann
-- [ ] Siegernachrichten eingbauen: Zum Beispiel Kai hat seinen Gegner gedemütigt! usw.
+- [x] While Schleife einbauen, damit der Kampf so lange läuft, bis einer 0 HP hat
+- [x] Ein Auswahl Menü erstellen: Benutzer kann Ninja und Bösewicht selbst auswählen
+- [x] Ausgabe schöner machen: Nach jedem Angriff eine kurze Pause (z. B. Console.ReadKey()), damit man den Kampf Schritt für Schritt verfolgen kann
+- [x] Siegernachrichten eingbauen: Zum Beispiel Kai hat seinen Gegner gedemütigt! usw.
+
+Heute habe ich ein kleines Auswahlmenü gemacht, wo man zuerst einen Ninja und dann einen Bösewicht auswählen kann. Danach kämpfen die beiden so lange, bis einer kein HP mehr hat. Am Ende zeigt das Programm wer gewonnen hat. So ist es jetzt mehr wie ein kleines Spiel. Ich möchte es auf nächstes mal erweitern damit es anschaulicher wird.
+
+## 19.10
+
+- [ ] Das Spiel erweitern: mehr Möglichkeiten unf Spielvariationen ertsellen z.B Heiltränke
+- [ ] Code aufräumen: Kommentare in allen Klassen ergänzen (z. B. was macht Attack, was macht ToString)
+- [ ] Ausgabe verbessern: Nach jedem Angriff die HP schön anzeigen (übersichtlich)
+
+
+
 
 
