@@ -4,11 +4,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace Ninjago_LA_6
 {
     public class Ninja
     {
+
 
         // Eigenschaften Ninja
         public string Name { get; set; }
@@ -39,6 +41,9 @@ namespace Ninjago_LA_6
         {
             return $"{Name} (HP: {Hp}, Waffe: {Waffe.Name}, Kraft: {Kraft.Element})";
         }
+
+
     }
 }
+
 

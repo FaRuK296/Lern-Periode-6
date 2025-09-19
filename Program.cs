@@ -34,20 +34,59 @@ namespace Ninjago_LA_6
 
 
 
-            // Testlauf Ausgabe Ninjas und Bösewichte
+            // Listen für Auswahl
+            List<Ninja> ninjas = new List<Ninja> { Kai, Jay, Zane, Cole };
+            List<Boesewicht> boesewichte = new List<Boesewicht> { LordGarmadon, Pythor, Chen };
 
-            Console.WriteLine("Alle Ninjas:");
-            Console.WriteLine(Kai);       
-            Console.WriteLine(Jay);       
-            Console.WriteLine(Zane);      
-            Console.WriteLine(Cole);
+            // Auswahl
+            Ninja spieler = Waehle(ninjas, "Wähle deinen Ninja:");
+            Boesewicht gegner = Waehle(boesewichte, "Wähle den Bösewicht:");
 
-            Console.WriteLine();
+            // Kampf
+            Console.Clear();
+            Console.WriteLine($"Kampf: {spieler.Name} vs. {gegner.Name}\n");
 
-            Console.WriteLine("Alle Bösewichte:");
-            Console.WriteLine(LordGarmadon);  
-            Console.WriteLine(Pythor); 
-            Console.WriteLine(Chen);          
+            int runde = 1;
+            while (spieler.Hp > 0 && gegner.Hp > 0)
+            {
+                Console.WriteLine($"-- Runde {runde} --");
+                Console.Write("Enter = Angriff, q = beenden: ");
+                var key = Console.ReadKey(); Console.WriteLine();
+                if (key.KeyChar == 'q' || key.KeyChar == 'Q') break;
+
+                spieler.Attack(gegner);
+                if (gegner.Hp > 0) gegner.Attack(spieler);
+
+                Console.WriteLine($"{spieler.Name} HP: {spieler.Hp} | {gegner.Name} HP: {gegner.Hp}\n");
+                runde++;
+            }
+
+            // Sieger
+            if (spieler.Hp <= 0 && gegner.Hp <= 0) Console.WriteLine("Unentschieden!");
+            else Console.WriteLine(spieler.Hp > 0 ? $"{spieler.Name} gewinnt!" : $"{gegner.Name} gewinnt!");
+            Console.ReadLine();
+        }
+
+        // Hilfsmethode für Auswahl
+        static T Waehle<T>(List<T> liste, string titel)
+        {
+            while (true)
+            {
+                Console.WriteLine(titel);
+                for (int i = 0; i < liste.Count; i++)
+                    Console.WriteLine($"{i + 1}) {liste[i]}");
+                Console.Write("Nummer: ");
+                string? input = Console.ReadLine();
+                if (int.TryParse(input, out int n) && n >= 1 && n <= liste.Count)
+                    return liste[n - 1];
+                Console.WriteLine("Ungültig. Nochmal.\n");
+
+
+
+
+
+            }
         }
     }
 }
+
