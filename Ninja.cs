@@ -12,7 +12,7 @@ namespace Ninjago_LA_6
     {
 
 
-        // Eigenschaften Ninja
+        // Eigenschaften Ninjas
         public string Name { get; set; }
         public int Hp { get; set; }
         public Waffe Waffe { get; set; }

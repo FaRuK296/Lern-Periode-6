@@ -10,7 +10,7 @@ namespace Ninjago_LA_6
     public class Waffe
     {
 
-        // Eigenschaften Waffe
+        // Eigenschaften Waffen
         public string Name { get; set; }
         public int Damage { get; set; }
 
@@ -23,7 +23,7 @@ namespace Ninjago_LA_6
             Damage = damage;
         }
 
-        // Ausgabe der Waffe
+        // Ausgabe der Waffen
         public override string ToString()
         {
 
