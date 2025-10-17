@@ -10,7 +10,7 @@ namespace Ninjago_LA_6
     public class Boesewicht
     {
 
-        // Eingenschaften Bösewicht
+        // Eingenschaften Bösewichte
         public string Name { get; set; }
         public int Hp {  get; set; }
         public int AttackPower  { get; set; }
@@ -31,7 +31,7 @@ namespace Ninjago_LA_6
         }
 
 
-        // Ausgabe des Bösewichts
+        // Ausgabe der Bösewichte
         public override string ToString()
         {
             return $"{Name} (HP: {Hp}, Angriff: {AttackPower})";
