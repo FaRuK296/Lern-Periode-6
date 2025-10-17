@@ -64,6 +64,7 @@ namespace Ninjago_LA_6
             // Sieger
             if (spieler.Hp <= 0 && gegner.Hp <= 0) Console.WriteLine("Unentschieden!");
             else Console.WriteLine(spieler.Hp > 0 ? $"{spieler.Name} gewinnt!" : $"{gegner.Name} gewinnt!");
+            Console.WriteLine("Das war ein BRUTALER Kampf!");
             Console.ReadLine();
         }
 
