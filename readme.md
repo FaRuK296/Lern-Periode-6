@@ -73,11 +73,18 @@ Heute habe ich ein kleines Auswahlmenü gemacht, wo man zuerst einen Ninja und d
 
 ## 19.10
 
-- [ ] Das Spiel erweitern: mehr Möglichkeiten unf Spielvariationen ertsellen z.B Heiltränke
-- [ ] Code aufräumen: Kommentare in allen Klassen ergänzen (z. B. was macht Attack, was macht ToString)
-- [ ] Ausgabe verbessern: Nach jedem Angriff die HP schön anzeigen (übersichtlich)
+- [x] Das Spiel erweitern: mehr Möglichkeiten unf Spielvariationen ertsellen z.B Heiltränke
+- [x] Code aufräumen: Kommentare in allen Klassen ergänzen (z. B. was macht Attack, was macht ToString)
+- [x] Ausgabe verbessern: Nach jedem Angriff die HP schön anzeigen (übersichtlich)
 
 
+## Fertiges Projekt
+In dieser Lernperiode habe ich ein kleines Ninjago Kampfspiel in C# programmiert. Der Spieler kann einen Ninja und einen Bösewicht auswählen. Jeder Ninja hat eine Waffe und eine Kraft, und jeder Bösewicht hat Lebenspunkte und Angriffskraft. Beide kämpfen gegeneinander, bis einer keine HP mehr hat. Nach jedem Angriff zeigt das Programm den Schaden und am Ende den Sieger.
+![ezgif-406f5142aa1f5f](https://github.com/user-attachments/assets/1f114bb7-75dc-4d48-8468-f398faddf519)
 
+## Reflexion
+Ich bin zufrieden mit dem Endergebnis. Am Anfang war es etwas schwierig, aber ich habe gelernt, wie man Klassen und Objekte in C# richtig verwendet. Ich habe verstanden, wie Programme aufgebaut sind. Jetzt vertsehe ich besser, wie man mit Klassen und Objekten ein Spiel mit Logik aufbaut, jedoch brauche ich noch Zeit um es umso besser zu können.
+
+ 
 
 
